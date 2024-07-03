@@ -48,32 +48,6 @@ app.post('/register', async (req,res) => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 app.post('/login', async (req,res) => {
     try {
         const {email, password} = req.body;
@@ -93,8 +67,6 @@ app.post('/login', async (req,res) => {
         res.status(500).json({error: 'An error occurred. Please try again.'})
     }
 })
-
-
 
 
 
