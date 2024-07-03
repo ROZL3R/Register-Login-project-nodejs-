@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://rolz33r01:94UeHNEt4RiRCxU5@loginpage.vpxlfmv.mongodb.net/?retryWrites=true&w=majority&appName=LoginPage')
+mongoose.connect('')
 .then(()=> {
     console.log('connected to the database')
 })
