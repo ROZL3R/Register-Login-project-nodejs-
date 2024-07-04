@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//Connect to the database mongoose.connect('')
 mongoose.connect('')
 .then(()=> {
     console.log('connected to the database')
